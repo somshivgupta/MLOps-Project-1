@@ -12,7 +12,7 @@ RUN pip install --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
 # Expose the port your app will run on
-EXPOSE 5000
+EXPOSE 5005
 
 # Run the FastAPI app
-CMD ["python3", "main.py"]
+CMD ["python3", "app.py"]
